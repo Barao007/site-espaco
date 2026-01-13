@@ -1,5 +1,3 @@
-# site-espaco
-Site temático sobre o espaço desenvolvido em HTML, CSS e JavaScript.
 # 🌌 Site do Espaço
 
 Projeto de site temático sobre o espaço, desenvolvido com foco em aprendizado de front-end, explorando conceitos de HTML, CSS e JavaScript, além de organização de layout e interação básica.

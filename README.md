@@ -9,8 +9,8 @@ Projeto de site temático sobre o espaço, desenvolvido com foco em aprendizado 
 - GitHub Pages
 
 ## 🌍 Acesso ao Projeto
-🔗 Site online: https://SEUUSUARIO.github.io/site-espaco  
-🔗 Repositório: https://github.com/SEUUSUARIO/site-espaco
+🔗 Site online: https://barao007.github.io/site-espaco/
+🔗 Repositório: https://github.com/Barao007/site-espaco
 
 ## 📚 O que eu aprendi
 - Estruturação de páginas HTML

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Mais sobre o espaço" />
+        <meta name="author" content="Samuel Lisboa" />
+        <title>SpaceX</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+           <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-galaxy"></i> <!-- Ícone de buraco negro -->
+            </a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link rocket-icon" href="#top">
+                            <i class="fas fa-rocket"></i> <!-- Ícone de foguete -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link portfolio-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                <div class="masthead-heading text-uppercase"></div>
+                
+            </div>
+        </header>
+        <!-- Portfolio Grid-->
+        <section class="page-section" style="background-color:#16161E" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase" style="color: #FFFFFF">Portfolio</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid"  src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Falcon 9</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Falcon Heavy</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Dragon</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Starship</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Human Spaceflight</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Starlink</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2008</h4>
+                                <h4 class="subheading">First space capsule</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">NASA selected the company in December 2008 to be one of the companies providing commercial resupply services for the space station.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2010 - 2012</h4>
+                                <h4 class="subheading">SpaceX and NASA</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">The Dragon spacecraft made a successful maiden flight on December 8, 2010. Then, on May 22, 2012, Dragon, in its C208 version, was launched for an important test: an attempt to dock the spacecraft at the International Space Station .
+
+Dragon arrived at the station safely on May 25 of that year. It was the first time that a private spacecraft docked with the space station.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2015 - 2018</h4>
+                                <h4 class="subheading">Reunible Falcon 9</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">SpaceX announced the Falcon 9 Reusable Development Vehicle in 2012. The Falcon 9 Full Thrust and Falcon Heavy variants followed in 2015 and 2018, and are both launched from the John F. Kennedy Space Center, as well as Cape Canaveral and Vandenberg.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2023</h4>
+                                <h4 class="subheading">Heavy starts operating</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Falcon Heavy launches now cost around US$90 million each, compared to the US$62 million charged for using the Falcon 9.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/anao.jpg" alt="..." />
+                            <h4>Samuel Lisboa</h4>
+                            <p class="text-muted">Manager</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/opa_samu00/" target="_blank" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/samuel-lisboa-945443312/" target="_blank" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.png" alt="..." />
+                            <h4>Elon Musk</h4>
+                            <p class="text-muted">CEO</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://x.com/elonmusk" target="_blank" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/perfeita.jpg" alt="..." />
+                            <h4>Luiza Andrade</h4>
+                            <p class="text-muted">Director</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://www.boringcompany.com/hyperloop" target="_blank">
+                    <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/TheBoring.png" alt="Microsoft Logo" aria-label="Microsoft Logo" />
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://neuralink.com/" target="_blank">
+                    <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/neuralink.jpg" alt="Google Logo" aria-label="Google Logo" />
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://www.hyperlooptt.com/" target="_blank">
+                    <img class="img-fluid img-brand d-block mx-auto" style="max-width: 550px;" src="assets/img/logos/hyperloop.jpg" alt="Facebook Logo" aria-label="Facebook Logo" />
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://www.tesla.com/" target="_blank">
+                    <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/tesla.png" alt="IBM Logo" aria-label="IBM Logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .img-brand {
+        max-width: 150px; /* Define a largura máxima */
+        max-height: 150px; /* Define a altura máxima */
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+</style>
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start" style="color: #FFF">Copyright &copy; By: Gabriel Souza 2024</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://x.com/spacex" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/spacex/" target="_blank" aria-label="Facebook"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/company/spacex/?originalSubdomain=br" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Falcon 9</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                            
+                            <div class="stats-container">
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">337</h2>
+                                    <p class="text-uppercase">total launches</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">294</h2>
+                                    <p class="text-uppercase">total landings</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">268</h2>
+                                    <p class="text-uppercase">total reflights</p>
+                                </div>
+                            </div>
+                            
+                            <p>Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access.</p>
+                            <ul class="list-inline">
+                                <li>
+                            </ul>
+                            <a class="btn btn-primary btn-xl text-uppercase" href="https://www.spacex.com/vehicles/falcon-9/" target="_blank">
+                                <i class=""></i>
+                                See More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Falcon Heavy</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                            
+                            <div class="stats-container">
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">9</h2>
+                                    <p class="text-uppercase">total launches</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">17</h2>
+                                    <p class="text-uppercase">total landings</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">14</h2>
+                                    <p class="text-uppercase">total reflights</p>
+                                </div>
+                            </div>
+                            
+                            <p>Falcon Heavy is composed of three reusable Falcon 9 nine-engine cores whose 27 Merlin engines together generate more than 5 million pounds of thrust at liftoff, equal to approximately eighteen 747 aircraft. As one of the world’s most powerful operational rockets, Falcon Heavy can lift nearly 64 metric tons (141,000 lbs) to orbit.</p>
+                            <ul class="list-inline">
+                                <li>
+                            </ul>
+                            <a class="btn btn-primary btn-xl text-uppercase" href="https://www.spacex.com/vehicles/falcon-heavy/" target="_blank">
+                                <i class=""></i>
+                                See More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Dragon</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpeg" alt="..." />
+                            
+                            <div class="stats-container">
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">46</h2>
+                                    <p class="text-uppercase">total launches</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">42</h2>
+                                    <p class="text-uppercase">visits to the iss</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h2 class="text-uppercase">25</h2>
+                                    <p class="text-uppercase">total reflights</p>
+                                </div>
+                            </div>
+                            
+                            <p>The Dragon spacecraft is capable of carrying up to 7 passengers to and from Earth orbit, and beyond. It is the only spacecraft currently flying that is capable of returning significant amounts of cargo to Earth, and is the first private spacecraft to take humans to the space station.</p>
+                            <ul class="list-inline">
+                                <li>
+                            </ul>
+                            <a class="btn btn-primary btn-xl text-uppercase" href="https://www.spacex.com/vehicles/dragon/" target="_blank">
+                                <i class=""></i>
+                                See More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Starship</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpeg" alt="..." />
+                                    <p>SpaceX’s Starship spacecraft and Super Heavy rocket – collectively referred to as Starship – represent a fully reusable transportation system designed to carry both crew and cargo to Earth orbit, the Moon, Mars and beyond. Starship is the world’s most powerful launch vehicle ever developed, capable of carrying up to 150 metric tonnes fully reusable and 250 metric tonnes expendable.</p>
+                                    <ul class="list-inline">
+                                    </ul>
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="https://www.spacex.com/vehicles/starship/" target="_blank">
+                                        <i class=""></i>
+                                        See More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Human Spaceflight</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.webp" alt="..." />
+                                    <p>SpaceX is looking for exceptional science and research ideas that will enable life in space and on other planets. Research proposals submitted to SpaceX will be reviewed and evaluated based on mission objectives, scientific and technical merit, and feasibility.</p>
+                                    <ul class="list-inline">
+                                    </ul>
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="https://www.spacex.com/humanspaceflight/" target="_blank">
+                                        <i class=""></i>
+                                        See More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal">
+                <img src="assets/img/close-icon.svg" alt="Close modal" />
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Starlink</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                            <p>
+                                The service created by Elon Musk, founder of SpaceX, aims to offer fast and comprehensive internet via satellite. Starlink uses technologies that guarantee cost reduction for customers and greater coverage in service provision.
+                                Each satellite has four high-performance antennas. Acting in combination, signals are transmitted quickly and at reduced costs. The thousands of satellites that will be placed in orbit will form a broad, high-capacity network, reaching regions that current telecommunications operators do not yet reach.
+                                The Starlink satellites have a flat panel format, weigh 260 kg and will be at low altitudes of 550 km, so they can disintegrate in the atmosphere more quickly when they become disused. They have a single solar panel to power the device, which makes it easier for the satellites to use energy.
+                            </p>
+                            <ul class="list-inline">
+                                <li>
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="https://www.starlink.com/" target="_blank">
+                                        <i class=""></i>
+                                        See More
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+<script>
+    function openPopup() {
+        document.getElementById("popup").style.display = "flex";
+    }
+
+    function closePopup() {
+        document.getElementById("popup").style.display = "none";
+    }
+</script>
+
+    </body>
+</html>
